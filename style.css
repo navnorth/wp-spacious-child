@@ -1,0 +1,16 @@
+/*
+Theme Name: Spacious Child
+Description: Child theme for Spacious theme
+Author: Navigation North
+Template: spacious
+*/
+
+.header-image {
+    width:auto !important;
+    border-bottom: none !important;
+    padding: 10px 0 0 10px;
+}
+
+#header-text-nav-wrap {
+    padding: 0px 0 7px 0 !important;
+}
