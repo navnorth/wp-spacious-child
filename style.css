@@ -10,3 +10,24 @@ Template: spacious
     border-bottom: none !important;
     padding: 10px 0 0 10px;
 }
+
+.showallstories.btn_dwnld, .sldr_readmr_btn a {
+    background-color: #f78020;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    float: left;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.showallstories.btn_dwnld, .sldr_readmr_btn a:hover {
+    background-color: #666666;
+}
+
+.gm-style-iw .info h4 {
+      padding-bottom: 4px;
+}
+
+.gm-style-iw .subinfo p {
+  margin-bottom: 4px;
+}
