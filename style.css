@@ -5,13 +5,37 @@ Author: Navigation North
 Template: spacious
 */
 
+/*
+site colors
+    primary blue: #274fa2
+    secondary teal: #00aec9
+    orange: #f58020
+*/
+
+h1 { font-size: 30px; line-height: 36px; }
+h2 { font-size: 26px; line-height: 32px; }
+h3 { font-size: 22px; line-height: 28px; }
+h4 { font-size: 18px; line-height: 24px; }
+h5 { font-size: 14px; line-height: 20px; }
+
 .header-image {
     width:auto !important;
     border-bottom: none !important;
     padding: 10px 0 0 10px;
 }
+#masthead .search-wrap input.s {
+    padding: 15px 10px;
+}
 
-.showallstories.btn_dwnld, .sldr_readmr_btn a {
+/*
+Styles for the Story Custom Post Type plugin
+*/
+
+/* front page and lists */
+.showallstories a.btn_dwnld {
+    width: 65% !important;
+}
+.showallstories a.btn_dwnld, .sldr_readmr_btn a {
     background-color: #f78020;
     color: #FFFFFF;
     text-align: center;
@@ -20,10 +44,12 @@ Template: spacious
     margin-top: 15px;
     font-size: 20px;
 }
-.showallstories.btn_dwnld, .sldr_readmr_btn a:hover {
+.showallstories a.btn_dwnld:hover, .sldr_readmr_btn a:hover {
     background-color: #666666;
 }
+.sldr_top_hdng { font-size: 16px; }
 
+/* map styles */
 .gm-style-iw .info h4 {
       padding-bottom: 4px;
 }
@@ -31,3 +57,15 @@ Template: spacious
 .gm-style-iw .subinfo p {
   margin-bottom: 4px;
 }
+
+/* single story page */
+.story_back a {
+    color: #f58020;
+}
+.story_back a:hover {
+    color: #274fa2;
+}
+/*
+....END
+Styles for the Story Custom Post Type plugin
+*/
